@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.jumbotron {
+    /*background: url(./images/hero-bg.jpg);*/
+    /*background-size: cover;*/
+
+    background-image: url(./images/hero-bg.jpg);
+    /*background-position: 50% 0%;*/
+    /*object-fit: contain;*/
+    /*display: block;*/
+    /*vertical-align: middle;*/
+    background-size: cover;
+    /*background-position: 50% 0%;*/
+    /*background-position: 50% 0%;*/
+    background-repeat: no-repeat;
+    /*background-size: 100% 100%;*/
+    /*background-position: top;*/
+    height: 85vh;
+}
+header h4 {
+    font-size: 3.75rem;
+    letter-spacing: 3px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+    color: #ffffff;
+    font-family: Roboto,sans-serif;
+}
+header h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    /*font-family: "Archivo Black";*/
+    font-family: 'Archivo Black', sans-serif;
+    /*font-family: 'Rosario', sans-serif;*/
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+}
+header .border-line {
+    height: 11px;
+    transform-origin: left center;
+    margin: 30px auto 0 0;
+    /*border-color: #ffffff;*/
+    background: white;
+}
+.height-space {
+    height: 7rem;
+}
+.banner-text {
+    padding-left: 3rem;
+}
+.services-text-icon {
+    padding-top: 30px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px 0 0;
+    color: white;
+}
+.services-text-icon h5 {
+    margin-top: 2rem;
+}
+
+/*Our Services section*/
+.our-services {
+    color: #111111;
+    background-color: #f2f2f2;
+}
+.our-services h5 {
+    color: #999999;
+    letter-spacing: 2px;
+}
+.our-services p {
+    margin: 30px auto 0;
+}
+.our-services button {
+    color: #ffffff;
+    background-color: #e71a23;
+    background-image: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-style: solid;
+    margin: 30px auto 60px;
+    padding: 16px 36px;
+}
+.our-services button:hover {
+    color: #ffffff;
+    background-color: #d1161e;
+}
+
+/*Our services 2*/
+.our-service-2 {
+    color: #111111;
+}
+.our-service-2 h1{
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+.our-service-2 img {
+    width: 200px;
+    margin-left: -3rem;
+}
+.our-service-2 p {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin: 20px 0 0;
+}
+.our-service-2 h4 {
+    font-weight: 700;
+    margin: 20px 0 0;
+}
