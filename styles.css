@@ -1,24 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
-.jumbotron {
-    /*background: url(./images/hero-bg.jpg);*/
-    /*background-size: cover;*/
-
-    background-image: url(./images/hero-bg.jpg);
-    /*background-position: 50% 0%;*/
-    /*object-fit: contain;*/
-    /*display: block;*/
-    /*vertical-align: middle;*/
+.banner {
+    height: 80vh;
+    object-fit: cover;
+    display: block;
+    vertical-align: middle;
     background-size: cover;
-    /*background-position: 50% 0%;*/
-    /*background-position: 50% 0%;*/
     background-repeat: no-repeat;
-    /*background-size: 100% 100%;*/
-    /*background-position: top;*/
-    height: 85vh;
+    background-position: 34.74% 0%;
+    background-image: url(./images/hero-bg.jpg);
 }
+
 header h4 {
     font-size: 3.75rem;
     letter-spacing: 3px;
@@ -32,9 +27,7 @@ header h4 {
 header h1 {
     font-size: 6rem;
     text-transform: uppercase;
-    /*font-family: "Archivo Black";*/
     font-family: 'Archivo Black', sans-serif;
-    /*font-family: 'Rosario', sans-serif;*/
     font-weight: 700;
     color: #ffffff;
     margin: 0;
@@ -43,7 +36,6 @@ header .border-line {
     height: 11px;
     transform-origin: left center;
     margin: 30px auto 0 0;
-    /*border-color: #ffffff;*/
     background: white;
 }
 .height-space {
@@ -52,6 +44,36 @@ header .border-line {
 .banner-text {
     padding-left: 3rem;
 }
+
+/*Best Quality*/
+.best-quality {
+    background: url("./images/best-quality-bg.jpeg");
+}
+.best-quality-image {
+    max-width: 100%;
+    height: auto;
+}
+.best-quality h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    margin: 135px 0 0;
+    color: #104e92;
+}
+.best-quality .line {
+    border-color: #e71a23;
+    background: #e71a23;
+    height: 9px;
+    transform-origin: left center;
+    border-style: solid;
+    margin: 30px auto 0 0;
+}
+.best-quality p {
+    font-size: 1.25rem;
+}
+
+/*Services*/
 .services-text-icon {
     padding-top: 30px;
     font-size: 1rem;
@@ -78,7 +100,7 @@ header .border-line {
 .our-services p {
     margin: 30px auto 0;
 }
-.our-services button {
+.our-services button, .best-quality button {
     color: #ffffff;
     background-color: #e71a23;
     background-image: none;
@@ -115,4 +137,82 @@ header .border-line {
 .our-service-2 h4 {
     font-weight: 700;
     margin: 20px 0 0;
+}
+
+/*ABOUT US*/
+.about-us {
+    color: #ffffff;
+    background-color: #104e92;
+}
+.about-us h3{
+    font-size: 6rem;
+    /*margin: 10px 0 0;*/
+}
+.about-us h6 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.about-us img {
+    max-width: 230px;
+    height: 180px;
+}
+
+/*TODO section*/
+.todo-section {
+    font-size: 1.875rem;
+    font-weight: 300;
+    margin: 30px 0 0;
+}
+.todo-section button {
+    color: #ffffff;
+    background-color: #e71a23;
+    background-image: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-style: solid;
+    padding: 16px 53px 16px 52px;
+}
+.todo-section button:hover {
+    color: #ffffff;
+    background-color: #d1161e;
+}
+.todo-section .white-button {
+    border: 1px solid #454545;
+    color: #454545;
+    background-color: transparent;
+}
+.todo-section h2 {
+    font-weight: 700;
+}
+
+
+@media (max-width: 767px) {
+    .banner {
+        background-position: 81.49% 50%;
+        background-image: url(./images/hero-bg.jpg);
+    }
+    .height-space {
+        margin-top: 20rem;
+    }
+    header h4 {
+        font-size: 2.25rem;
+    }
+    header h1 {
+        font-size: 3.625rem;
+    }
+    /*Abouts us*/
+    .about-us h3 {
+        font-size: 3.75rem;
+    }
+    .about-us h6 {
+
+    }
+    .about-us img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
 }

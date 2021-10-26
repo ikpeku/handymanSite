@@ -15,7 +15,7 @@
     <title>House-repair-and-contruction</title>
 </head>
 <body>
-<nav class="navbar navbar-light bg-light fixed-top">
+<nav class="navbar navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="./images/default-logo.png" alt="logo here">
@@ -59,11 +59,9 @@
     </div>
 </nav>
 
-<header class="container-fluid py-5 jumbotron">
+<header class="container-fluid py-5 banner">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-<!--            <img src="./images/hero-bg.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">-->
-        </div>
+        <div class="col-10 col-sm-8 col-lg-6"></div>
         <div class="col-lg-5 banner-text">
             <div class="height-space"></div>
             <h4 class="mb-3">HOUSE REPAIR</h4>
@@ -71,9 +69,7 @@
             <div class="border-line">
                 <div></div>
             </div>
-
-
-            <div class="row align-items-center services-text-icon">
+            <div class="row align-items-center services-text-icon d-none d-lg-flex">
                 <div class="col">
                     <span class="u-icon u-icon-circle u-spacing-10 u-text-body-alt-color u-icon-1">
                         <svg height="80" width="80" fill="#fff" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 512 512" id="svg-6235">
@@ -94,16 +90,15 @@
                     </h5>
                 </div>
             </div>
-
         </div>
     </div>
 </header>
 
-<main>
+<main class="">
     <section class="our-services pt-5">
         <div class="px-4 py-5 text-center">
             <h5 class="text-uppercase mb-4 pt-5">OUR SERVICES</h5>
-            <h1 class="display-5 fw-bold">How Can We Help You?</h1>
+            <h1 class="display-5">How Can We Help You?</h1>
             <div class="col-lg-6 mx-auto">
                 <p class="lead mb-4">We specialize in making routine maintenance and emergency repair experiences worry free. Give us a call today to learn how simple our process truly is!</p>
 
@@ -114,6 +109,31 @@
         </div>
     </section>
 
+    <section class="best-quality">
+        <div class="container mx-auto">
+            <div class="row">
+                <div class="col-11 mx-auto">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <picture>
+                                <img class="best-quality-image img-fluid" src="./images/billionphotos1079319min.png" alt="Services Photo">
+                            </picture>
+                        </div>
+
+                        <div class="py-5 col-lg-6">
+                            <h2>BEST QUALITY</h2>
+                            <div class="line"></div>
+                            <p class="mt-4">Company works with homeowners, contractors, realtors, and residential building managers to help maintain, upgrade, and repair properties</p>
+
+                            <button type="button" class="btn">Book Now</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
     <section class="our-service-2">
         <div class="container px-4 py-5" id="featured-3">
@@ -144,16 +164,52 @@
         </div>
     </section>
 
+    <section class="about-us">
+        <div class="container mx-auto py-5">
+            <div class="row py-5">
+                <div class="col-11 col-lg-9 mx-auto">
+                    <div class="row">
+                        <div class="py-5 col-12 col-lg-6">
+                            <h6>ABOUT US</h6>
+                            <h3>Plumbing <b>Services</b></h3>
+                        </div>
 
-    <section class=" pt-5">
+                        <div class="col-12 col-lg-6">
+                            <div class="row row-cols-2 g-2 g-lg-4">
+                                <div class="col-12 col-sm-6">
+                                    <img src="./images/frg.jpg" alt="Services Photo">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <img src="./images/rg.jpg" alt="Services Photo">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <img src="./images/billionphotos1882993.jpg" alt="Services Photo">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <img src="./images/billionphotos1882951.jpg" alt="Services Photo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="todo-section pt-5">
         <div class="container px-4 py-5 text-center">
-            <h1 class="fw-bold">Get your 'TO DO' list completed by a real professional!</h1>
-            <div class="col-lg-4 mx-auto">
-                <p class="lead mb-4">We’re on a mission to help build long-lasting brands that shape and define an entire industry through thoughtful design.</p>
-
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Book Now</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">CALL US</button>
+            <div class="col-lg-6 mx-auto">
+                <h2 class="">Get your 'TO DO' list completed by a real professional!</h2>
+                <div>
+                    <p class="mt-4">
+                        We’re on a mission to help build long-lasting brands
+                        that shape and define an entire industry through thoughtful design.
+                    </p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-center mt-5">
+                        <button type="button" class="btn gap-4">Book Now</button>
+                        <button type="button" class="btn white-button mt-4 mt-lg-0">CALL US</button>
+                    </div>
                 </div>
             </div>
         </div>
